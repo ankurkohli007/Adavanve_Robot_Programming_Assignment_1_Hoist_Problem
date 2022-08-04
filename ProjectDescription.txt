@@ -1,0 +1,56 @@
+												HOIST SIMULATOR
+												
+
+ADAVNCE AND ROBOT PROGRAMMING
+Programmer: Aatheethyaa Dhanasekaran (5051520) Ankur Kohli (5160903)
+M.Sc Robotics Engineering
+University of Genoa (UniGe)
+Group: AA5
+Supervisor: Prof. Renato Ugo Raffaele Zaccaria & Prof. Simone Macciò
+
+First assignment of advanced and robot programming class concerns the development of a robot simulator which simulates the behaviour of a Hoist.
+
+############################################################################################## INTRODUCTION ############################################################################################
+
+The project simulates a hoist with 2 degrees of freedom, with two consoles that allow the user to interact with the hoist.
+The hoist can move right/left (horizontally) and up/down (vertically), within respective limits in axis X [0-30] and in axis Z [0-20].
+If there are no activity(not moving and no input) lets say 60 seconds, the hoist will stop and reset position.
+
+Inside the .zip archive are contained five files, three shell scripts the sources.zip archive and the text file you are reading. In the sources archive you find 6 directories wich contain the .c file and also a .txt file with  informations about each process.
+
+First of all to unzip the sources archive and install the program using the command:
+
+source ./install.sh <pathname>
+
+It will create a folder called <pathname> inside which are located the folders that
+were in sources.zip, there will also be a folder with the executables of each process.
+
+After that run the program with the command:
+
+./run.sh
+
+############################################################################################## COMPONENTS ##############################################################################################
+The program of this simulator is composed by 6 processes:
+
+-Master process = launches other components and controls that they terminate without errors
+
+-Command console = allows the user to move motors in x and z direction/stop the hoist
+
+-Inspection console = shows its real-time position and provides two emergency buttons:
+	-RESET -> to stop the hoist and reset the position
+	-STOP -> Stops both motion x and motion z
+	
+-Motor X = receives commands from the command console and moves the hoist along axis X (horizontally), then it sends X coordinates to inspection console
+
+-Motor Z = receives commands from the command console and  oves the hoist along axis Z (vertically), then it sends Z coordinates to inspection console
+
+-Watchdog = controls that there is activity (moving or some input). If there no input operations perfomed by the user lets say 60 seconds, it sends a signal to inspection console to do the reset procedure
+
+
+
+
+
+
+
+
+
