@@ -58,7 +58,7 @@ sleep (dt)
 ]
 ```
 
-## Running ##
+## Installation & Running ##
 
 Inside the .zip archive are contained five files, three shell scripts the sources.zip archive and the text file you are reading. In the sources archive you find 6 directories wich contain the .c file and also a .txt file with  informations about each process.
 
