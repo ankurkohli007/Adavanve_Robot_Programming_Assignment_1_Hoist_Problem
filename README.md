@@ -10,4 +10,4 @@ Base project structure for the first Advanced and Robot Programming (ARP) assign
 
 The code was design, develop, test and deploy is an interactive simulator of hoist with 2 d.o.f, in which two different consoles allow the user to activate the hoist. Figure below is structure which highlights the hoist cotrol to accomplish the task.
 
-! [alt text](image1.png)
+![alt text](image1.png)
