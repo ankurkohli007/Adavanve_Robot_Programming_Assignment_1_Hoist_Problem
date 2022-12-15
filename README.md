@@ -4,9 +4,7 @@
 [University of Genoa (UniGe)](https://unige.it/en)<br>
 **Supervisor:** [Prof. Renato Ugo Raffaele Zaccaria](https://rubrica.unige.it/personale/VUFOXVhs) & [Prof. Simone Macciò](https://rubrica.unige.it/personale/UUNAWFho)
 
-## Hoist Simulator
-
-Base project structure for the first Advanced and Robot Programming (ARP) assignment. The project provides the basic functionalities for the Command and Inspection consoles. 
+## Hoist Simulator 
 
 The code was design, develop, test and deploy is an interactive simulator of hoist with 2 d.o.f, in which two different consoles allow the user to activate the hoist. Figure below is structure which highlights the hoist cotrol to accomplish the task.
 
@@ -16,7 +14,7 @@ In the octagonal box there are two motors mx and mz, which displace the hoist al
 
 From the user side there are two consoles (shell windows) and keys with different aims, that simulate a real system.
 
-There were two consoles i.e. Command Consoles & Inspection Consoles, also mentioned above. Below are the brief description about the two consoles.
+There were two consoles i.e. Command Consoles & Inspection Consoles. Below are the brief description about the two consoles.
 
 **Command Console:** It comprises of buttons which can be accesed by the user to control the hoist as shown in figure above. Features of the buttons are given below: 
 
